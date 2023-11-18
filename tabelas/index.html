@@ -1,0 +1,79 @@
+<html>
+  <head>
+    <title>Tabelas no Html</title>
+  </head>
+  <body>
+    <h1>Criação de Tabelas no Html</h1>
+
+    <!--tag princiapl das tabelas <table>-->
+    <!-- tr = table row = linhas de tabela-->
+    <!-- td tabel data = dados da célula-->
+    <!--th table head cabeçalho da tabela-->
+    <!--thead cabeçalho da tabela-->
+    <!--tbody corpo da tabela-->
+
+    <table border="1">
+      <tr>
+        <th>Coluna 1</th>
+        <th>Coluna 2</th>
+      </tr>
+      <tr>
+        <td>Dado 1</td>
+        <td>Dado 2</td>
+      </tr>
+      <tr>
+        <td>Dado 3</td>
+        <td>Dado 4</td>
+      </tr>
+    </table>
+    <h2>Tabelas com Cabeçalhos</h2>
+
+    <table border="2">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Profissão</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>João</td>
+          <td>30</td>
+          <td>Engenheiro</td>
+        </tr>
+        <tr>
+          <td>Maria</td>
+          <td>25</td>
+          <td>Advogada</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+
+    <!-- colspan indica a quantidade de colunas que irá mesclar-->
+    <!-- rowspan indica a quantidade de linhas que irá mesclar-->
+    <!-- border bordas da tabela-->
+
+    <h2>Tebelas com Células Personalizadas</h2>
+    <table border="3">
+        <thead>
+            <tr>
+                <th colspan="2">Informações Pessoais</th>
+                <th>Contato</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Nome:</td>
+                <td>João</td>
+                <td rowspan="2">Telefone; 12345678</td>
+            </tr>
+            <tr>
+                <td>Idade:</td>
+                <td>30</td>
+            </tr>
+        </tbody>
+    </table>
+  </body>
+</html>
